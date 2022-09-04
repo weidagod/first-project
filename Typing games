@@ -1,0 +1,12 @@
+#include<stdio.h>
+/*define function*/
+ void Move();
+ void Build();
+void  Paint();
+int main()
+{
+    Move();
+    Build();
+    Paint();
+    printf("welcome to new world");
+}
