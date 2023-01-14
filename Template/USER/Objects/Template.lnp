@@ -1,0 +1,10 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\startup_stm32f429xx.o"
+".\objects\main.o"
+".\objects\delay_1.o"
+".\objects\sys_1.o"
+".\objects\usart_2.o"
+--strict --scatter ".\Objects\Template.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Template.map" -o .\Objects\Template.axf

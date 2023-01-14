@@ -1,0 +1,53 @@
+Dependencies for Project 'Template', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_stm32f429xx.s)(0x63B82BF8)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -ID:\ProgramingEnvironment\keil\Pack\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 534" --pd "STM32F429xx SETA 1"--list .\listings\startup_stm32f429xx.lst --xref -o .\objects\startup_stm32f429xx.o --depend .\objects\startup_stm32f429xx.d)
+F (.\main.c)(0x63C21717)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\HEADER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-ID:\ProgramingEnvironment\keil\Pack\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -DSTM32F429xx -DSTM32F429-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x56442678)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x56442678)
+I (..\SYSTEM\sys\core_cm4.h)(0x56442610)
+I (D:\ProgramingEnvironment\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x56442610)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x56442610)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x56442676)
+I (..\SYSTEM\usart\usart.h)(0x569F345C)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (D:\ProgramingEnvironment\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\SYSTEM\delay\delay.h)(0x57146005)
+F (..\SYSTEM\delay\delay.c)(0x57145F50)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\HEADER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-ID:\ProgramingEnvironment\keil\Pack\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -DSTM32F429xx -DSTM32F429-o .\objects\delay_1.o --omf_browse .\objects\delay_1.crf --depend .\objects\delay_1.d)
+I (..\SYSTEM\delay\delay.h)(0x57146005)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x56442678)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x56442678)
+I (..\SYSTEM\sys\core_cm4.h)(0x56442610)
+I (D:\ProgramingEnvironment\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x56442610)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x56442610)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x56442676)
+F (..\SYSTEM\sys\sys.c)(0x614BE4E9)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\HEADER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-ID:\ProgramingEnvironment\keil\Pack\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -DSTM32F429xx -DSTM32F429-o .\objects\sys_1.o --omf_browse .\objects\sys_1.crf --depend .\objects\sys_1.d)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x56442678)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x56442678)
+I (..\SYSTEM\sys\core_cm4.h)(0x56442610)
+I (D:\ProgramingEnvironment\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x56442610)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x56442610)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x56442676)
+F (..\SYSTEM\usart\usart.c)(0x569F345C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\HEADER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-ID:\ProgramingEnvironment\keil\Pack\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -DSTM32F429xx -DSTM32F429-o .\objects\usart_2.o --omf_browse .\objects\usart_2.crf --depend .\objects\usart_2.d)
+I (..\SYSTEM\sys\sys.h)(0x5714A215)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x56442678)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x56442678)
+I (..\SYSTEM\sys\core_cm4.h)(0x56442610)
+I (D:\ProgramingEnvironment\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x56442610)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x56442610)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x56442676)
+I (..\SYSTEM\usart\usart.h)(0x569F345C)
+I (D:\ProgramingEnvironment\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
